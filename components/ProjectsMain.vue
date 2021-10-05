@@ -1,0 +1,63 @@
+<template lang="">
+<section class="text-gray-600 body-font">
+ <div class="flex flex-col text-center w-full mt-10 mb-10">
+      <h1 class="sm:text-3xl text-xl font-bold title-font mb-4 text-gray-900">Some Projects I've Worked On</h1>
+      
+    </div
+  <div class="container px-5 py-24 mx-auto flex flex-wrap">
+
+    <div class="lg:w-2/3 mx-auto">
+      <div class="flex flex-wrap w-full bg-gray-100 py-32 px-10 relative mb-4">
+        <img alt="gallery" class="w-full object-cover h-full object-center block opacity-60 absolute inset-0" src="https://i.ibb.co/h9mTxDW/guywearingmask.jpg">
+        <div class="text-center relative z-10 w-full">
+          <h2 class="text-6xl text-gray-900 font-bold title-font mb-2">Bury The Hatchet</h2>
+         
+          <NuxtLink class="mt-3 text-indigo-500 inline-flex items-center text-3xl font-bold" to="burythehatchet">Read More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg></NuxtLink>
+          </a>
+        </div>
+      </div>
+      <div class="flex flex-wrap -mx-2">
+        <div class="px-2 w-1/2">
+          <div class="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
+            <img alt="gallery" class="w-full object-cover h-full object-center block opacity-25 absolute inset-0" src="~/assets/stressfactory.jpeg">
+            <div class="text-center relative z-10 w-full">
+              <h2 class="text-6xl text-gray-900 font-bold title-font mb-2">Keystone Roofing</h2>
+              
+              <NuxtLink class="mt-3 text-indigo-500 inline-flex items-center text-3xl font-bold" to="keystone">Read More
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg></NuxtLink>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="px-2 w-1/2">
+          <div class="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
+            <img alt="gallery" class="w-full object-cover h-full object-center block opacity-25 absolute inset-0" src="~/assets/keystone.jpg">
+            <div class="text-center relative z-10 w-full">
+              <h2 class="text-xl text-gray-900 font-medium title-font mb-2">Coming Soon</h2>
+              <p class="leading-relaxed">From Zero To </p>
+              <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</template>
+<script>
+export default {
+    
+}
+</script>
+<style lang="">
+    
+</style>
